@@ -10,7 +10,7 @@
    <section>
     <form id="storeForm">
       <fieldset>
-        <legend> Order Form </legend>
+        <legend> Customer Information</legend>
 
         <label for="CustomerName">Name: </label>
         <input name="CustomerName" type="text"/>
@@ -21,13 +21,27 @@
         <label for="shippingAddress">Shipping address </label>
         <input name="shippingAddress" type="text" />
 
+      </fieldset>
+    </form>
+    <form action="/action_page.php">
+    <fieldset>
+      <legend> Order Form </legend>
+
         <label for="product"> Product Description </label>
         <input name="product" type="text" size="150" />
 
-        <label for="productAmount"> Quantity </label>
-        <input name="productAmount" type="number" />
 
-        <button type="submit">Submit</button>
+          <input list="browsers" name="browser">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+          <input type="submit">
+
+
       </fieldset>
     </form>
   </section>
