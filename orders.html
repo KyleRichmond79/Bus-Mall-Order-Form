@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
      <script src="app.js" type="text/javascript"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Proccesing order</title>
   </head>
   <body>
-<h1> You are about to finished your order</h1>
-<h2> Review your info </h2>
-<img id ="" </img> //product image to display
+<h1> Customer order form </h1>
+<h2> Item to be shipped </h2>
+<img src ="http://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg" </img> //product image to display
 <section>
  <form id="storeForm">
    <fieldset>
-     <legend> This is your order info </legend>
+     <legend> This is the order info </legend>
 
      <label for="productAmount"> Qty </label>
-     <input name="productAmount" type="number" />
+     <input name="productAmount" type="number" min="0"/>
 
      <label for="product"> Product Description </label>
      <input name="product" type="text" size="150" />
@@ -34,7 +35,7 @@
 
 
 
-     <button type="submit">Submit</button>
+     <button type="submit">Complete order</button>
    </fieldset>
  </form>
 
