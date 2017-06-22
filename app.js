@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 
 var orderForm = document.getElementById('orderForm');
@@ -48,3 +49,6 @@ if (form.attachEvent) {
 } else {
   form.addEventListener('submit', processForm);
 }
+=======
+
+>>>>>>> 57c5454b2fa9475a79ca6978ca0c554aee654446
